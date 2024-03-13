@@ -1,0 +1,73 @@
+@media(max-width:468px){
+    
+    /* MAIN */
+    .hero{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        grid-template-columns: 1fr;
+        grid-template-areas: "preview"
+                             "information"
+                             "social"
+                             "footer";
+        grid-row-gap: 150px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hero .logo{
+        left: 40px;
+    }
+
+    .hero .logo img{
+        width: 150px;
+    }
+
+    /* PREVIEW */
+
+    .preview img{
+        width: 250px;
+        top: 130px;
+    }
+
+    /* INFORMATION */
+
+    .information{
+        align-items: center;
+        width: 400px;
+        gap: 30px;
+        
+    }
+
+    .information h1{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .information p{
+        text-align: center;
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .information a{
+        width: 250px;
+    }
+
+    /* SOCIAL */
+
+    .social{
+        right: 95px;
+    }
+
+    .social ul li{
+        font-size: 30px;
+    }
+
+    /* FOOTER */
+
+    .footer{
+        display: none;
+    }
+    
+}
