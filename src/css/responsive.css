@@ -9,7 +9,6 @@
                              "information"
                              "social"
                              "footer";
-        grid-row-gap: 150px;
         justify-content: center;
         align-items: center;
 
@@ -27,7 +26,7 @@
 
     .preview img{
         width: 250px;
-        top: 130px;
+        top: 45px;
     }
 
     /* INFORMATION */
@@ -57,7 +56,11 @@
     /* SOCIAL */
 
     .social{
-        right: 95px;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .social ul li{
